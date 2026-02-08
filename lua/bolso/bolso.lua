@@ -1,0 +1,2 @@
+-- bolso.nvim: Unified yank/delete history with home-row labels
+-- This file exists so `:packadd bolso.nvim` works, but setup() is still required.
