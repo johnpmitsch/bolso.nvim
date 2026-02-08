@@ -10,15 +10,8 @@ Vim's numbered registers (`"1`–`"9`) are awkward to reach and yanks/deletes ar
 
 bolso.nvim automatically captures all yanks and deletes into a **unified LIFO stack** and lets you access them through a floating picker with **home-row labels**: `a` is always the most recent, `s` is second, `d` is third, and so on.
 
-```
-┌──────────── bolso ────────────────────┐
-│ [a] const handleClick = () => {       │
-│ [s] import React from 'react'         │
-│ [d] npm run build                     │
-│                                       │
-│ Press label to select, <Esc> to cancel│
-└───────────────────────────────────────┘
-```
+<img width="1213" height="1018" alt="image" src="https://github.com/user-attachments/assets/b8aeb190-9128-4d95-8910-f801d92d53e0" />
+
 
 ## Installation
 
